@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    
+}
+
+.comp_container {
+    position: relative;
+    height: 300px;
+    width: 550px;
+}
+
+.comp_img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.comp_container img {
+    display: block;
+    vertical-align: middle;
+}
+
+.comp_slider {
+    position: absolute;
+    z-index: 99;
+    cursor: ew-resize;
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+    opacity: 0.6;
+    border-radius: 50%;
+}
+
+
+.filter_img {
+    filter: brightness(131%) 
+    grayscale(0.1) 
+    contrast(117%) 
+    saturate(160%);
+}
+
+.filter_img_main {
+    filter: brightness(112%)
+    grayscale(0.1) 
+    contrast(60%) 
+    saturate(70%);
+}
